@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 
-import random
-data = ["goo","choki","pa"]
-data_choice = random.choice(data)
-print(data_choice)
+# import random
+# data = ["goo","choki","pa"]
+# data_choice = random.choice(data)
+# print(data_choice)
 
-print('入力してください')
-input = raw_input()
+# print('入力してください')
+# input = raw_input()
 
-# print('あなたの入力した文字は%x', %input, 'です')
+# # print('あなたの入力した文字は%x', %input, 'です')
 
-print('あなたの入力した文字は「' + input + '」です')
+# print('あなたの入力した文字は「' + input + '」です')
 
 # -*- coding: utf-8 -*-
 
@@ -58,5 +58,16 @@ print('あなたの入力した文字は「' + input + '」です')
 
 # except:
 #     print('aかbかcを入力してください。')　　
+
+
+# import datetime
+
+# today = datetime.date.today()
+# birthday = datetime.date(1988,6,29)
+# life = today - birthday
+# print(life.days)
+
+print(30 * 365)
+
 
 
