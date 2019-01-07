@@ -1,12 +1,12 @@
-# -*- coding: utf-8 -*-
+# # -*- coding: utf-8 -*-
 
-import random
-data = ["goo","choki","pa"]
-data_choice = random.choice(data)
-print(data_choice)
+# import random
+# data = ["goo","choki","pa"]
+# data_choice = random.choice(data)
+# print(data_choice)
 
-print('入力してください')
-input = raw_input()
+# print('入力してください')
+# input = raw_input()
 
 # print('あなたの入力した文字は%x', %input, 'です')
 
@@ -143,3 +143,27 @@ input = raw_input()
 # score = 100
 # if score == 100:
 #     print('君は天才だ')
+
+score = 40
+if score == 100:
+    print('マジ天才')
+elif score >= 50:
+    print('もう一歩')
+else:
+    print('まじないわ')
+
+score = 100
+if score == 100:
+    print('マジ天才')
+elif score >= 50:
+    print('もう一歩')
+else:
+    print('まじないわ')
+
+score = 60
+if score == 100:
+    print('マジ天才')
+elif score >= 50:
+    print('もう一歩')
+else:
+    print('まじないわ')
